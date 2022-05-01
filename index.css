@@ -34,13 +34,10 @@ nav {
     font-weight: bold;
     padding: 0 3px;
 }
-.navmenu {
-    width: 100%;
-    display: flex;
-    background-color: rgb(28, 83, 231);
-    justify-content: right;
-}
 
 body{
     font-size: Nunito;
+}
+*{
+    padding: 10px;
 }

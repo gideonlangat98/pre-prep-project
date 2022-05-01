@@ -1,0 +1,42 @@
+h2{
+    display: inline;
+    padding: 10px;
+    font-size:medium;
+    
+}
+h1{
+    color: rgb(250, 121, 0)
+}
+h3{
+    color: red;
+h4{
+    padding: 10px;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline;
+}
+
+.crumb a::after {
+    display: inline;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+.navmenu {
+    width: 100%;
+    display: flex;
+    background-color: rgb(28, 83, 231);
+    justify-content: right;
+}

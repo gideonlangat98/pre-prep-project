@@ -40,3 +40,6 @@ nav {
     background-color: rgb(28, 83, 231);
     justify-content: right;
 }
+* {
+    background-color: #EC4067;
+}
